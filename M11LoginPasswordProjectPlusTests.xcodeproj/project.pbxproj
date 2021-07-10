@@ -14,6 +14,9 @@
 		F5A5759F2699B8F9003D0056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A5759D2699B8F9003D0056 /* LaunchScreen.storyboard */; };
 		F5A575AA2699B8FA003D0056 /* M11LoginPasswordProjectPlusTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A575A92699B8FA003D0056 /* M11LoginPasswordProjectPlusTestsTests.swift */; };
 		F5A575B52699B8FA003D0056 /* M11LoginPasswordProjectPlusTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A575B42699B8FA003D0056 /* M11LoginPasswordProjectPlusTestsUITests.swift */; };
+		F5A575C42699C4FB003D0056 /* VBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A575C32699C4FB003D0056 /* VBTextField.swift */; };
+		F5A575C62699C780003D0056 /* VBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A575C52699C780003D0056 /* VBButton.swift */; };
+		F5A575C82699CE61003D0056 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A575C72699CE61003D0056 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F5A575B02699B8FA003D0056 /* M11LoginPasswordProjectPlusTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M11LoginPasswordProjectPlusTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A575B42699B8FA003D0056 /* M11LoginPasswordProjectPlusTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M11LoginPasswordProjectPlusTestsUITests.swift; sourceTree = "<group>"; };
 		F5A575B62699B8FA003D0056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A575C32699C4FB003D0056 /* VBTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBTextField.swift; sourceTree = "<group>"; };
+		F5A575C52699C780003D0056 /* VBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBButton.swift; sourceTree = "<group>"; };
+		F5A575C72699CE61003D0056 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,14 @@
 		F5A575912699B8F4003D0056 /* M11LoginPasswordProjectPlusTests */ = {
 			isa = PBXGroup;
 			children = (
+				F5A575C22699C4CF003D0056 /* Objects */,
 				F5A575922699B8F4003D0056 /* AppDelegate.swift */,
 				F5A575942699B8F4003D0056 /* SceneDelegate.swift */,
 				F5A575962699B8F4003D0056 /* ViewController.swift */,
 				F5A5759B2699B8F9003D0056 /* Assets.xcassets */,
 				F5A5759D2699B8F9003D0056 /* LaunchScreen.storyboard */,
 				F5A575A02699B8F9003D0056 /* Info.plist */,
+				F5A575C72699CE61003D0056 /* Users.swift */,
 			);
 			path = M11LoginPasswordProjectPlusTests;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				F5A575B62699B8FA003D0056 /* Info.plist */,
 			);
 			path = M11LoginPasswordProjectPlusTestsUITests;
+			sourceTree = "<group>";
+		};
+		F5A575C22699C4CF003D0056 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F5A575C32699C4FB003D0056 /* VBTextField.swift */,
+				F5A575C52699C780003D0056 /* VBButton.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5A575972699B8F4003D0056 /* ViewController.swift in Sources */,
+				F5A575C42699C4FB003D0056 /* VBTextField.swift in Sources */,
 				F5A575932699B8F4003D0056 /* AppDelegate.swift in Sources */,
+				F5A575C62699C780003D0056 /* VBButton.swift in Sources */,
+				F5A575C82699CE61003D0056 /* Users.swift in Sources */,
 				F5A575952699B8F4003D0056 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
